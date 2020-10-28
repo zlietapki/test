@@ -49,8 +49,8 @@ int Sample( int inputVal ) {
     workingVal = workingVal + CurrentAdder( workingVal );
 ```
 
-пример плохого аргумента $invitation
-из $invitation достается только id_invited_by
+пример плохого аргумента $invitation  
+из $invitation достается только id_invited_by  
 Передавая объект мы намекаем, что:
 - $invitation может быть изменен и это повлияет на вызывающую функцию
 - будем использовать весь объект
